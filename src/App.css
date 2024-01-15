@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+  font-family: "Nunito", sans-serif;
+}
+header{
+  z-index: 10001 !important;
+}
+.btn-primary{
+  @apply px-7 py-2 bg-brandPrimary text-white rounded-3xl hover:bg-neutralDGrey transition-all duration-300 hover:-translate-y-4;
+}
